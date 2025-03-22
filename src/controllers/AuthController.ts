@@ -1,6 +1,5 @@
 import type { Request, Response } from 'express'
 import User from '../models/User'
-import bcrypt from 'bcrypt'
 import { comparePassword, hashPassword } from '../utils/auth';
 import Token from '../models/Token';
 import { generateToken } from '../utils/token';
