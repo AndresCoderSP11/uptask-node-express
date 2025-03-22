@@ -1,0 +1,30 @@
+INSTALASMOS LA PARTE DE 
+*NPM I COLORS 
+
+*NPM I MONGOOSE //Esto para hacer ujso de la variables de entorno DOTENV 
+
+*NPM I EXPRESS-VALIDATOR , para agregar las validadciones en las rutas 
+//npm i morgan 
+
+// npm i morgan
+
+// npm i -D @types/morgan
+
+// npm i bcrypt - Utiliazamos para encriptar la contasena
+
+// npm i nodemailer
+
+//npm i -D @types/nodemailer
+
+//npm i jsonwebtoken
+//npm i -D @types/jsonwebtoken
+
+
+ "dev:api": "nodemon --exec ts-node src/index.ts --api",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+
+  "keywords": [],
+
+  En este caso verifica que se sirva una vez agregado en el servidor
+  
